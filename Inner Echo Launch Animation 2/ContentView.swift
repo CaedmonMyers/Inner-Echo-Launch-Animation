@@ -89,7 +89,7 @@ struct ContentView: View {
                     animationPhase = 2
                 }
                 
-                DispatchQueue.main.asyncAfter(wallDeadline: .now() + 0.25) {
+                DispatchQueue.main.asyncAfter(wallDeadline: .now() + 0.2) {
                     withAnimation(.easeInOut(duration: 1.0)) {
                         animationPhase = 3
                     }
